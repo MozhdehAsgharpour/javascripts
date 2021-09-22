@@ -174,3 +174,45 @@ section .navigation li img{
 section .navigation li img:hover{
     opacity:1;
 }
+#containar{
+ width: 100%;
+ height: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ background-color: purple;
+ background-image: url(../img/p404.png);
+}
+#containar .content{
+    width:100%;
+    margin:0 auto;
+    text-align: center;
+}
+#containar .content h2{
+    font-size: 200px;
+    color: white;
+    
+}
+#containar .content h4{
+    font-size: 20px;
+    color: white;
+    margin: -70px;
+    
+}
+#containar .content p{
+    font-size: 20px;
+    color: white;
+    margin: 70px 0;
+}
+
+#containar .content a{
+    text-decoration: none;
+    color: white;
+    background-color:rosybrown;
+    padding: 10px 20px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
